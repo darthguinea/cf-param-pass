@@ -15,13 +15,13 @@
             "Properties": {
                 "UserName": {
                     "Fn::Join": [
-                        "-",
+                        ".",
                         [
                             {
-                                "Ref": "DBName"
+                                "Ref": "Firstname"
                             },
                             {
-                                "Ref": "DBInstance"
+                                "Ref": "Surname"
                             }
                         ]
                     ]
